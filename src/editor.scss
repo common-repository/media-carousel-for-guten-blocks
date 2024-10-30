@@ -1,0 +1,105 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-gutenberg-media-carousel {
+	border: 1px dotted #f00;
+}
+.color {
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: calc(8px);
+	padding: 0px;
+}
+
+.slider-boxwrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.arrowclass .components-radio-control__option {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.arrowclass .components-radio-control__option label {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 5px;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	width: 100%;
+}
+.arrowclass label .svg-arrow {
+    display: flex;
+    gap: 10px;
+}
+.arrowclass .svg-arrow .prev-btn, .arrowclass .svg-arrow .next-btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.arrowclass .components-radio-control__option label img {
+	max-width: 30px !important;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.slider-boxwrap .mcfgb-gallery-single {
+	position: relative;
+	cursor: pointer;
+}
+
+.slider-boxwrap .mcfgb-gallery-single {
+	width: 48% !important;
+	margin: 2% 0;
+}
+
+input.ytb-url,
+input.caption,
+input.caption-video {
+	height: 37px;
+	width: -webkit-fill-available;
+    margin: 5px 0;
+    padding: 0 10px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+// .mcfgb-gallery-single input {
+//     width: 100%;
+//     margin: 5px 0;
+// }
+.slider-boxwrap .mcfgb-gallery-single img,
+.slider-boxwrap .mcfgb-gallery-single video {
+	height: 220px;
+	max-width: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: 0.3s ease all;
+	box-shadow: 0px 0px 10px #8f8f8f;
+}
+
+.arrowclass input[type="radio"] {
+	display: none;
+}
+
+.arrowclass .components-flex {
+	flex-direction: row;
+    justify-content: space-between;
+}
+img.type_image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
